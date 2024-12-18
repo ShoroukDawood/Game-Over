@@ -1,0 +1,134 @@
+/* Global css */
+:root {
+  --bg-nav: #3a497b;
+  --w-7: 5%;
+}
+body {
+  background-color: #272b30;
+  font-family: "Comfortaa-Medium";
+}
+@font-face {
+  font-family: "NerkoOne-Regular";
+  src: url(../fonts/NerkoOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url(../fonts/Comfortaa-Bold.ttf);
+}
+@font-ffont-family: "Comfortaa-Light";
+ace {
+  font-family: "Comfortaa-Light";
+  src: url(../fonts/Comfortaa-Light.ttf);
+}
+@font-face {
+  font-family: "Comfortaa-Medium";
+  src: url(../fonts/Comfortaa-Medium.ttf);
+}
+@font-face {
+  font-family: "Comfortaa-SemiBold";
+  src: url(../fonts/Comfortaa-SemiBold.ttf);
+}
+nav.navbar {
+  background-color: var(--bg-nav);
+  border-radius: 20px;
+  /* box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+    padding: 9px; */
+}
+nav img {
+  width: 4%;
+}
+a.navbar-brand {
+  color: white;
+  font-size: 25px;
+  font-family: "NerkoOne-Regular";
+  font-weight: 500 !important;
+  font-style: italic;
+}
+ul.navbar-nav.ms-auto li a {
+  color: white;
+  font-size: 0.7656rem;
+  font-family: "Comfortaa-Medium";
+  text-transform: uppercase;
+  transition: 1s all;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+ul.navbar-nav.ms-auto li:hover a {
+  color: #09c !important;
+}
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: rgb(255 255 255);
+}
+.headerImge {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+.card {
+  background-color: transparent;
+  padding: 0;
+}
+.card-header {
+  padding: 10px;
+}
+main {
+  margin-top: 2rem;
+}
+.imageCard img {
+  border-radius: 10px;
+}
+.all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h6.title {
+  color: #fff;
+}
+span.free.badge {
+  background-color: #2a4459;
+  padding: 0.5rem 0.9rem;
+}
+p.card-text {
+  color: #a4a4a4;
+  font-weight: 500;
+}
+.card-footer.text-body-secondary {
+  display: flex;
+  justify-content: space-between;
+}
+.badge-color {
+  background: #80808030;
+}
+.card {
+  transition: 1s all;
+}
+.card:hover {
+  transform: scale(1.05);
+  filter: grayscale(0);
+}
+.card:hover span.free.badge {
+  background: #0d6efd;
+}
+/* details  */
+section.details {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #272729;
+  height: 100vh;
+  z-index: 7;
+}
+h1.deatils {
+  font-family: "Comfortaa-Bold";
+}
+h5.card-title {
+  color: white;
+}
+div#detailsContent .card-header img {
+  width: 30% !important;
+}

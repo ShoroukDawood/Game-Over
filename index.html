@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <img class="headerImge" src="./image/header.png" alt="header image">
+      <div class="container">
+      <nav class="navbar navbar-expand-lg menu" class="menu">
+          <img src="./image/logo-sm.png" alt="logo"><a class="navbar-brand" href="#">Game Reviews</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <nav class="navbar navbar-expand-lg menu ms-auto">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">mmorpg</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">shooter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">sailing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">permadeath</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">superhero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">pixel</a>
+                    </li>
+                </ul>
+            </nav>
+
+             <section class="details d-none">
+         <div class="container">
+            <header class="hstack justify-content-between">
+               <h1 class="text-center h3 py-4">Details Game</h1>
+               <button class="btn-close btn-close-white" id="btnClose"></button>
+            </header>
+            <div class="row g-4" id="detailsContent"></div>
+         </div>
+      </section>
+          </div>
+        
+      </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container my-5">
+        <div class="row g-3 p-3" id="gameContainer"></div>
+      </div>
+    </main>
+
+         <main class="container my-5 home">
+            <section class="position-relative">
+               <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gameData"></div>
+            </section>
+         </main>
+      <section class="details d-none">
+          <div class="container">
+              <header class="hstack justify-content-between">
+                  <h1 class="details text-white text-center h3 py-4">Details Game</h1>
+                  <button class="btn-close btn-close-white" id="btnClose"></button>
+              </header>
+              <div class="row g-4" id="detailsContent"></div>
+          </div>
+      </section>
+  <script type="module" src="./js/index.js"></script>
+  <script src="./js/bootstrap.bundle.min.js.map"></script>
+</body>
+</html>
